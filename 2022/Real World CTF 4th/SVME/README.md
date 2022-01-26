@@ -10,4 +10,4 @@ Professor Terence Parr has taught us [how to build a virtual machine](https://ww
 
 # Writeup
 
-https://cerulean-string-4c9.notion.site/SVME-b26f258456f74eac9ffb1ecd9e867b59
+https://bean5oup.notion.site/SVME-b26f258456f74eac9ffb1ecd9e867b59
