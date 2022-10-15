@@ -2,7 +2,7 @@
 
 `Pwn`
 
-Solved by 0 Teams
+Solved by 1 Teams
 
 ---
 
