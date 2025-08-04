@@ -1,0 +1,30 @@
+accounts:
+  - name: owner
+    balance: 401ether
+  - name: user
+    balance: 1ether
+
+deployments:
+  - name: setup_contract
+    path: "./script/Setup.s.sol"
+    target_contract: "SetupScript"
+    is_script: true
+    value: 400ether
+    private_key: owner_private_key
+  - name: toast_script
+    path: "./script/Toast.s.sol"
+    target_contract: "ToastScript"
+    is_script: true
+    private_key: owner_private_key
+
+exposed:
+  - setup_contract_address
+  - user_private_key
+  - user_address
+
+anvil-options:
+  - name: hardfork
+    value: "prague"
+
+verifier: /verifier.py
+flag_path: ./flag.txt
